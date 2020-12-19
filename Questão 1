@@ -1,0 +1,8 @@
+conta = 0
+num = 0
+for cont in range (5000000):
+    num = num + 1
+    if num % 2 == 0 and num % 49 == 0 and num % 37 == 0:
+      conta = conta + 1
+print(conta,"numeros que são pares e múltiplos de 49 e 37")
+  

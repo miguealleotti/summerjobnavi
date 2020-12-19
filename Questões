@@ -1,7 +1,0 @@
-numero = float(input('Digite um número'))
-resto= numero % 2
-  if resto == 0:
-  print (número é par, múltiplo de 49 e de 37)
-  else:
-  print('número não atende as condições')
-  
