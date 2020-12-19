@@ -1,0 +1,17 @@
+aluno1 = int(input('Insira a nota do primeiro aluno: '))
+aluno2 = int(input('Insira a nota do segundo aluno: '))
+aluno3 = int(input('Insira a nota do terceiro aluno: '))
+aluno4 = int(input('Insira a nota do quarto aluno: '))
+aluno5 = int(input('I3nsira a nota do quinto aluno: '))
+
+dicionário = {1:aluno1,2:aluno2,3:aluno3,4:aluno4,5:aluno5}
+if aluno1>aluno2  and aluno1>aluno3  and aluno1>aluno4  and aluno1>aluno5:
+  print('O aluno com a maior nota é o primeiro e sua nota foi: ', dicionário[1])
+elif aluno2>aluno1  and aluno2>aluno3  and aluno2>aluno4  and aluno2>aluno5:
+  print('O aluno com a maior nota é o segundo e sua nota foi: ', dicionário[2])
+elif aluno3>aluno2  and aluno3>aluno1  and aluno3>aluno4  and aluno3>aluno5:
+  print('O aluno com a maior nota é o terceiro e sua nota foi: ', dicionário[3])
+elif aluno4>aluno2  and aluno4>aluno3  and aluno4>aluno1  and aluno4>aluno5:
+  print('O aluno com a maior nota é o quarto e sua nota foi: ', dicionário[4])
+elif aluno5>aluno2  and aluno5>aluno3  and aluno5>aluno4  and aluno5>aluno1:
+  print('O aluno com a maior nota é o quinto e sua nota foi: ', dicionário[5])
